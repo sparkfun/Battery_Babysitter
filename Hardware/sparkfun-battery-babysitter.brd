@@ -167,7 +167,7 @@
 <text x="12.7" y="2.54" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">SDA</text>
 <text x="15.24" y="2.54" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">SCL</text>
 <text x="10.16" y="2.54" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">VPU</text>
-<text x="12.3825" y="10.8585" size="1.143" layer="21" font="vector" ratio="15" align="top-left">Battery
+<text x="11.3665" y="10.8585" size="1.143" layer="21" font="vector" ratio="15" align="top-left">Battery
 Babysitter</text>
 <wire x1="10.922" y1="27.051" x2="12.065" y2="27.051" width="0.254" layer="21"/>
 <wire x1="11.4935" y1="26.4795" x2="11.4935" y2="27.6225" width="0.254" layer="21"/>
@@ -281,8 +281,8 @@ Set</text>
 <wire x1="12.7" y1="24.765" x2="12.7" y2="33.02" width="0.2032" layer="21" style="shortdash"/>
 <text x="5.715" y="28.575" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">V</text>
 <text x="5.0165" y="28.956" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="top-left">IN</text>
-<text x="31.75" y="13.843" size="0.8128" layer="21" font="vector" ratio="15" align="top-center">EN1</text>
-<text x="31.75" y="16.51" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">EN2</text>
+<text x="31.877" y="13.843" size="0.8128" layer="21" font="vector" ratio="15" align="top-center">EN1</text>
+<text x="31.877" y="16.51" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">EN2</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -2878,17 +2878,17 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
   &lt;li&gt;A6H-2101 or A6H-2102 in Omron A6H series; &lt;a href="http://www.omron.com/ecb/products/pdf/en-a6h.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Digikey &lt;a href="http://www.digikey.com/product-detail/en/A6H-2101/A6H-2101-ND/1811590"&gt;A6H-2101-ND&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-<wire x1="-2.032" y1="-2.413" x2="2.032" y2="-2.413" width="0.2032" layer="21"/>
-<wire x1="2.032" y1="2.413" x2="-2.032" y2="2.413" width="0.2032" layer="21"/>
-<wire x1="-2.032" y1="2.413" x2="-2.032" y2="-2.413" width="0.2032" layer="21"/>
-<wire x1="2.032" y1="-2.413" x2="2.032" y2="2.413" width="0.2032" layer="21"/>
+<wire x1="-1.855" y1="-2.6" x2="1.855" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="1.855" y1="2.6" x2="-1.855" y2="2.6" width="0.2032" layer="21"/>
+<wire x1="-1.855" y1="2.6" x2="-1.855" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="1.855" y1="-2.6" x2="1.855" y2="2.6" width="0.2032" layer="21"/>
 <wire x1="-1.0922" y1="1.905" x2="-1.0922" y2="-1.905" width="0.1778" layer="21"/>
 <wire x1="-1.0922" y1="1.905" x2="-0.1778" y2="1.905" width="0.1778" layer="21"/>
 <wire x1="-0.1778" y1="-1.905" x2="-0.1778" y2="1.905" width="0.1778" layer="21"/>
 <wire x1="-0.1778" y1="-1.905" x2="-1.0922" y2="-1.905" width="0.1524" layer="21"/>
-<text x="-1.016" y="-4.191" size="1.016" layer="51" ratio="10">1</text>
+<text x="-1.016" y="-2.191" size="1.016" layer="51" ratio="10">1</text>
 <text x="-1.905" y="1.27" size="0.8128" layer="51" ratio="10">ON</text>
-<text x="0.254" y="-4.191" size="1.016" layer="51" ratio="10">2</text>
+<text x="0.254" y="-2.191" size="1.016" layer="51" ratio="10">2</text>
 <text x="-1.905" y="-6.096" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-2.032" y="5.334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <rectangle x1="-0.889" y1="-0.381" x2="-0.381" y2="0" layer="21"/>
@@ -2905,6 +2905,10 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <rectangle x1="0.381" y1="-0.381" x2="0.889" y2="0" layer="21"/>
 <rectangle x1="0.381" y1="-1.016" x2="0.889" y2="-0.635" layer="21"/>
 <rectangle x1="0.381" y1="-1.651" x2="0.889" y2="-1.27" layer="21"/>
+<rectangle x1="0.41" y1="3.72" x2="0.86" y2="4.22" layer="51"/>
+<rectangle x1="-0.86" y1="3.72" x2="-0.41" y2="4.22" layer="51"/>
+<rectangle x1="-0.86" y1="-4.22" x2="-0.41" y2="-3.72" layer="51" rot="R180"/>
+<rectangle x1="0.41" y1="-4.22" x2="0.86" y2="-3.72" layer="51" rot="R180"/>
 </package>
 </packages>
 </library>
@@ -3269,7 +3273,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="SJ4" library="SparkFun-Passives" package="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK" value="" x="29.21" y="8.89" rot="MR180"/>
 <element name="SJ3" library="SparkFun-Passives" package="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK" value="" x="29.21" y="11.43" rot="MR180"/>
 <element name="JP4" library="SparkFun-Connectors" package="JST-2-PTH-NS" value="" x="8.89" y="27.051"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="9.652" y="9.7155"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="8.763" y="9.7155"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="2.159" y="26.3525"/>
 <element name="R12" library="SparkFun-Resistors" package="0603-RES" value="100k" x="26.67" y="25.4" rot="R270">
 <attribute name="PROD_ID" value="RES-07828" x="26.67" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3292,7 +3296,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="0.889" y="28.194"/>
 <element name="FID2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="29.21" y="5.08"/>
 <element name="S2" library="SparkFun-Electromechanical" package="DIPSWITCH-02-50MIL" value="" x="27.94" y="15.24" rot="R90">
-<attribute name="PROD_ID" value="TBD" x="27.94" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="SWCH-13215" x="27.94" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>

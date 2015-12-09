@@ -29539,17 +29539,17 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
   &lt;li&gt;A6H-2101 or A6H-2102 in Omron A6H series; &lt;a href="http://www.omron.com/ecb/products/pdf/en-a6h.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Digikey &lt;a href="http://www.digikey.com/product-detail/en/A6H-2101/A6H-2101-ND/1811590"&gt;A6H-2101-ND&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-<wire x1="-2.032" y1="-2.413" x2="2.032" y2="-2.413" width="0.2032" layer="21"/>
-<wire x1="2.032" y1="2.413" x2="-2.032" y2="2.413" width="0.2032" layer="21"/>
-<wire x1="-2.032" y1="2.413" x2="-2.032" y2="-2.413" width="0.2032" layer="21"/>
-<wire x1="2.032" y1="-2.413" x2="2.032" y2="2.413" width="0.2032" layer="21"/>
+<wire x1="-1.855" y1="-2.6" x2="1.855" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="1.855" y1="2.6" x2="-1.855" y2="2.6" width="0.2032" layer="21"/>
+<wire x1="-1.855" y1="2.6" x2="-1.855" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="1.855" y1="-2.6" x2="1.855" y2="2.6" width="0.2032" layer="21"/>
 <wire x1="-1.0922" y1="1.905" x2="-1.0922" y2="-1.905" width="0.1778" layer="21"/>
 <wire x1="-1.0922" y1="1.905" x2="-0.1778" y2="1.905" width="0.1778" layer="21"/>
 <wire x1="-0.1778" y1="-1.905" x2="-0.1778" y2="1.905" width="0.1778" layer="21"/>
 <wire x1="-0.1778" y1="-1.905" x2="-1.0922" y2="-1.905" width="0.1524" layer="21"/>
-<text x="-1.016" y="-4.191" size="1.016" layer="51" ratio="10">1</text>
+<text x="-1.016" y="-2.191" size="1.016" layer="51" ratio="10">1</text>
 <text x="-1.905" y="1.27" size="0.8128" layer="51" ratio="10">ON</text>
-<text x="0.254" y="-4.191" size="1.016" layer="51" ratio="10">2</text>
+<text x="0.254" y="-2.191" size="1.016" layer="51" ratio="10">2</text>
 <text x="-1.905" y="-6.096" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-2.032" y="5.334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <rectangle x1="-0.889" y1="-0.381" x2="-0.381" y2="0" layer="21"/>
@@ -29566,6 +29566,10 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <rectangle x1="0.381" y1="-0.381" x2="0.889" y2="0" layer="21"/>
 <rectangle x1="0.381" y1="-1.016" x2="0.889" y2="-0.635" layer="21"/>
 <rectangle x1="0.381" y1="-1.651" x2="0.889" y2="-1.27" layer="21"/>
+<rectangle x1="0.41" y1="3.72" x2="0.86" y2="4.22" layer="51"/>
+<rectangle x1="-0.86" y1="3.72" x2="-0.41" y2="4.22" layer="51"/>
+<rectangle x1="-0.86" y1="-4.22" x2="-0.41" y2="-3.72" layer="51" rot="R180"/>
+<rectangle x1="0.41" y1="-4.22" x2="0.86" y2="-3.72" layer="51" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -30512,7 +30516,7 @@ Rebel - DIO-09553&lt;br&gt;
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="S2" library="SparkFun-Electromechanical" deviceset="SW_DIP-2" device="-SMT-HALFSIZE">
-<attribute name="PROD_ID" value="TBD"/>
+<attribute name="PROD_ID" value="SWCH-13215"/>
 </part>
 </parts>
 <sheets>
