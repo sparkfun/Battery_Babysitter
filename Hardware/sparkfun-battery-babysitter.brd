@@ -3174,16 +3174,16 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="TOP_NEG" value="-" x="5.715" y="20.32" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="U2" library="battery-management-temp" package="PDSO-N12" value="BQ27441-G1" x="15.24" y="19.05">
-<attribute name="PROD_ID" value="TBD" x="15.24" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="IC-13220" x="15.24" y="19.05" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R11" library="SparkFun-Resistors" package="1206" value="0.01" x="15.875" y="24.13" rot="R180">
-<attribute name="PROD_ID" value="TBD" x="15.875" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="RES-13218" x="15.875" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C5" library="SparkFun-Capacitors" package="0603-CAP" value="1.0uF" x="18.415" y="15.24">
 <attribute name="PROD_ID" value="CAP-00868" x="18.415" y="15.24" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="C4" library="SparkFun-Capacitors" package="0603-CAP" value="0.47uF" x="16.7005" y="13.97">
-<attribute name="PROD_ID" value="TBD" x="16.7005" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="CAP-13216" x="16.7005" y="13.97" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R13" library="SparkFun-Resistors" package="0603-RES" value="4.7K" x="11.43" y="6.35" rot="R270">
 <attribute name="PROD_ID" value="RES-07857" x="11.43" y="6.35" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -3192,13 +3192,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="RES-07857" x="13.97" y="6.35" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="U1" library="battery-management-temp" package="PVQFN-N16" value="BQ24075" x="22.86" y="20.32" rot="R270">
-<attribute name="PROD_ID" value="TBD" x="22.86" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="IC-13219" x="22.86" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R5" library="SparkFun-Passives" package="0603-RES" value="590" x="24.13" y="10.16" rot="R180">
-<attribute name="PROD_ID" value="TBD" x="24.13" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="RES-13217" x="24.13" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R7" library="SparkFun-Passives" package="0603-RES" value="1.1k" x="24.13" y="8.89" rot="R180">
-<attribute name="PROD_ID" value="TBD" x="24.13" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="RES-10447" x="24.13" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="D1" library="SparkFun-LED" package="LED-0603" value="BLUE" x="13.97" y="31.115" rot="R180">
 <attribute name="PROD_ID" value="DIO-08575" x="13.97" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>

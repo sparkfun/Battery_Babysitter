@@ -30425,33 +30425,33 @@ Rebel - DIO-09553&lt;br&gt;
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="V_USB" device=""/>
 <part name="U2" library="battery-management-temp" deviceset="BQ27441-G1" device="">
-<attribute name="PROD_ID" value="TBD"/>
+<attribute name="PROD_ID" value="IC-13220"/>
 </part>
 <part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="0.01">
-<attribute name="PROD_ID" value="TBD"/>
+<attribute name="PROD_ID" value="RES-13218"/>
 </part>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="1.0UF-16V-10%(0603)" device="" value="1.0uF"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.47uF">
-<attribute name="PROD_ID" value="TBD"/>
+<attribute name="PROD_ID" value="CAP-13216"/>
 </part>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R13" library="SparkFun-Resistors" deviceset="4.7KOHM-1/10W-1%(0603)" device="" value="4.7K"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="4.7KOHM-1/10W-1%(0603)" device="" value="4.7K"/>
 <part name="U1" library="battery-management-temp" deviceset="BQ24075" device="">
-<attribute name="PROD_ID" value="TBD"/>
+<attribute name="PROD_ID" value="IC-13219"/>
 </part>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="V_USB" device=""/>
 <part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="590">
-<attribute name="PROD_ID" value="TBD"/>
+<attribute name="PROD_ID" value="RES-13217"/>
 </part>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.1k">
-<attribute name="PROD_ID" value="TBD"/>
+<attribute name="PROD_ID" value="RES-10447"/>
 </part>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
