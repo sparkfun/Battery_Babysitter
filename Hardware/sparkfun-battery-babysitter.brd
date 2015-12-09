@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -3189,7 +3189,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="R5" library="SparkFun-Passives" package="0603-RES" value="590" x="24.13" y="11.43" rot="R180">
 <attribute name="PROD_ID" value="TBD" x="24.13" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R7" library="SparkFun-Passives" package="0603-RES" value="1.1k" x="24.13" y="10.16" rot="R180"/>
+<element name="R7" library="SparkFun-Passives" package="0603-RES" value="1.1k" x="24.13" y="10.16" rot="R180">
+<attribute name="PROD_ID" value="TBD" x="24.13" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="D1" library="SparkFun-LED" package="LED-0603" value="BLUE" x="13.97" y="31.115" rot="R180">
 <attribute name="PROD_ID" value="DIO-08575" x="13.97" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="BLUE" x="13.97" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3234,7 +3236,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="27.9438" y="12.3852" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="29.2735" y="11.43" size="0.889" layer="21" ratio="15" align="center"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="1206-CAP" value="1.0uF" x="22.86" y="24.13" rot="R180"/>
+<element name="C1" library="SparkFun-Capacitors" package="1206-CAP" value="1.0uF" x="22.86" y="24.13" rot="R180">
+<attribute name="PROD_ID" value="CAP-09822" x="22.86" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="1.0uF" x="22.86" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="STANDOFF3" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="2.54" y="30.48"/>
 <element name="STANDOFF1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="30.48" y="30.48"/>
 <element name="STANDOFF2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="2.54" y="2.54"/>
