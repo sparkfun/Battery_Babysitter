@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -169,16 +169,16 @@
 <text x="10.16" y="2.54" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">VPU</text>
 <text x="11.3665" y="10.8585" size="1.143" layer="21" font="vector" ratio="15" align="top-left">Battery
 Babysitter</text>
-<wire x1="10.922" y1="27.051" x2="12.065" y2="27.051" width="0.254" layer="21"/>
-<wire x1="11.4935" y1="26.4795" x2="11.4935" y2="27.6225" width="0.254" layer="21"/>
-<wire x1="5.715" y1="27.051" x2="6.858" y2="27.051" width="0.254" layer="21"/>
+<wire x1="10.668" y1="25.527" x2="11.811" y2="25.527" width="0.254" layer="21"/>
+<wire x1="11.2395" y1="24.9555" x2="11.2395" y2="26.0985" width="0.254" layer="21"/>
+<wire x1="5.969" y1="25.527" x2="7.112" y2="25.527" width="0.254" layer="21"/>
 <wire x1="1.27" y1="22.9235" x2="1.27" y2="24.0665" width="0.254" layer="21"/>
 <wire x1="1.8415" y1="23.495" x2="0.6985" y2="23.495" width="0.254" layer="21"/>
 <wire x1="1.27" y1="16.5735" x2="1.27" y2="17.7165" width="0.254" layer="21"/>
-<wire x1="22.098" y1="5.969" x2="20.955" y2="5.969" width="0.254" layer="21"/>
-<wire x1="21.5265" y1="6.5405" x2="21.5265" y2="5.3975" width="0.254" layer="21"/>
-<wire x1="27.305" y1="5.969" x2="26.162" y2="5.969" width="0.254" layer="21"/>
-<text x="8.9535" y="25.9715" size="0.9652" layer="21" font="vector" ratio="15" align="top-center">4.35-6.4V</text>
+<wire x1="22.225" y1="7.62" x2="21.082" y2="7.62" width="0.254" layer="21"/>
+<wire x1="21.6535" y1="8.1915" x2="21.6535" y2="7.0485" width="0.254" layer="21"/>
+<wire x1="27.178" y1="7.62" x2="26.035" y2="7.62" width="0.254" layer="21"/>
+<text x="4.5085" y="29.1465" size="0.9652" layer="21" font="vector" ratio="15" rot="R90" align="top-center">4.35-6.4V</text>
 <text x="32.258" y="24.7015" size="0.9652" layer="21" font="vector" ratio="15" rot="R90" align="center-left">OFF</text>
 <text x="32.258" y="19.685" size="0.9652" layer="21" font="vector" ratio="15" rot="R90" align="center-right">ON</text>
 <polygon width="0.254" layer="21">
@@ -237,13 +237,13 @@ Babysitter</text>
 <wire x1="1.27" y1="16.5735" x2="1.27" y2="17.7165" width="0.254" layer="22"/>
 <wire x1="1.27" y1="22.9235" x2="1.27" y2="24.0665" width="0.254" layer="22"/>
 <wire x1="1.8415" y1="23.495" x2="0.6985" y2="23.495" width="0.254" layer="22"/>
-<wire x1="5.461" y1="27.051" x2="6.604" y2="27.051" width="0.254" layer="22"/>
-<wire x1="11.176" y1="27.051" x2="12.319" y2="27.051" width="0.254" layer="22"/>
-<wire x1="11.7475" y1="27.6225" x2="11.7475" y2="26.4795" width="0.254" layer="22"/>
-<text x="8.8265" y="25.9715" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">4.35-6.4V</text>
-<wire x1="21.5265" y1="5.3975" x2="21.5265" y2="6.5405" width="0.254" layer="22"/>
-<wire x1="22.098" y1="5.969" x2="20.955" y2="5.969" width="0.254" layer="22"/>
-<wire x1="27.305" y1="5.969" x2="26.162" y2="5.969" width="0.254" layer="22"/>
+<wire x1="5.969" y1="25.527" x2="7.112" y2="25.527" width="0.254" layer="22"/>
+<wire x1="10.668" y1="25.527" x2="11.811" y2="25.527" width="0.254" layer="22"/>
+<wire x1="11.2395" y1="26.0985" x2="11.2395" y2="24.9555" width="0.254" layer="22"/>
+<text x="4.5085" y="29.1465" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="top-center">4.35-6.4V</text>
+<wire x1="21.6535" y1="6.4135" x2="21.6535" y2="7.5565" width="0.254" layer="22"/>
+<wire x1="22.225" y1="6.985" x2="21.082" y2="6.985" width="0.254" layer="22"/>
+<wire x1="27.178" y1="6.985" x2="26.035" y2="6.985" width="0.254" layer="22"/>
 <text x="20.32" y="2.54" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">!CE!</text>
 <text x="17.78" y="2.54" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">GPOUT</text>
 <text x="15.24" y="2.54" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">SCL</text>
@@ -276,17 +276,22 @@ Disable</text>
 Set</text>
 <text x="24.892" y="7.366" size="1.27" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">V</text>
 <text x="24.511" y="8.0645" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="top-left">OUT</text>
-<wire x1="4.191" y1="33.02" x2="4.191" y2="24.765" width="0.2032" layer="21" style="shortdash"/>
-<wire x1="4.191" y1="24.765" x2="12.7" y2="24.765" width="0.2032" layer="21" style="shortdash"/>
-<wire x1="12.7" y1="24.765" x2="12.7" y2="33.02" width="0.2032" layer="21" style="shortdash"/>
-<text x="5.715" y="28.575" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">V</text>
-<text x="5.0165" y="28.956" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="top-left">IN</text>
+<wire x1="4.191" y1="33.02" x2="4.191" y2="24.638" width="0.2032" layer="21" style="shortdash"/>
+<wire x1="4.191" y1="24.638" x2="12.7" y2="24.638" width="0.2032" layer="21" style="shortdash"/>
+<wire x1="12.7" y1="24.638" x2="12.7" y2="33.02" width="0.2032" layer="21" style="shortdash"/>
+<text x="8.509" y="24.892" size="1.27" layer="21" font="vector" ratio="15" align="bottom-center">V</text>
+<text x="8.89" y="25.7175" size="0.8128" layer="21" font="vector" ratio="15" align="top-left">IN</text>
 <text x="31.877" y="13.843" size="0.8128" layer="21" font="vector" ratio="15" align="top-center">EN1</text>
 <text x="31.877" y="16.51" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">EN2</text>
 <text x="17.78" y="26.0985" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="bottom-center">PWR-LED
 SEL</text>
 <text x="16.4465" y="27.686" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">PWR</text>
 <text x="16.51" y="24.0665" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">!PGD!</text>
+<wire x1="4.191" y1="24.638" x2="4.191" y2="33.02" width="0.2032" layer="22" style="shortdash"/>
+<wire x1="4.191" y1="24.638" x2="12.7" y2="24.638" width="0.2032" layer="22" style="shortdash"/>
+<wire x1="12.7" y1="24.638" x2="12.7" y2="33.02" width="0.2032" layer="22" style="shortdash"/>
+<text x="9.398" y="24.892" size="1.27" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">V</text>
+<text x="9.017" y="25.7175" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="top-left">IN</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -3844,15 +3849,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$2">
 <contactref element="R7" pad="1"/>
 <contactref element="SJ4" pad="1"/>
-<via x="26.035" y="7.62" extent="1-16" drill="0.254"/>
+<via x="27.559" y="7.62" extent="1-16" drill="0.254"/>
 <wire x1="28.194" y1="8.89" x2="28.702" y2="8.89" width="0.2032" layer="16"/>
 <wire x1="28.194" y1="8.89" x2="27.94" y2="8.636" width="0.2032" layer="16"/>
 <wire x1="27.94" y1="8.636" x2="27.94" y2="8.001" width="0.2032" layer="16"/>
 <wire x1="27.94" y1="8.001" x2="27.559" y2="7.62" width="0.2032" layer="16"/>
-<wire x1="27.559" y1="7.62" x2="26.035" y2="7.62" width="0.2032" layer="16"/>
 <wire x1="24.98" y1="8.89" x2="24.98" y2="8.04" width="0.2032" layer="1"/>
 <wire x1="24.98" y1="8.04" x2="25.4" y2="7.62" width="0.2032" layer="1"/>
-<wire x1="25.4" y1="7.62" x2="26.035" y2="7.62" width="0.2032" layer="1"/>
+<wire x1="25.4" y1="7.62" x2="27.559" y2="7.62" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="SJ3" pad="1"/>
