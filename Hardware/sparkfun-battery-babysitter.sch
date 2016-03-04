@@ -28137,7 +28137,7 @@ to be daisy chained easily.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="M01" prefix="JP" uservalue="yes">
+<deviceset name="M01" prefix="J" uservalue="yes">
 <description>&lt;b&gt;Header 1&lt;/b&gt;
 Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115). SMTSO-256-ET is a "flush mount" nut for a 4-40 screw. The older package used to be too tight, and did not allow it to sit properly thru the drill hit. The latest (0.165DIA) fits nice and snug.</description>
 <gates>
@@ -30074,6 +30074,22 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.4064" layer="1"/>
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.4064" layer="51"/>
 </package>
+<package name="PAD.02X.02">
+<smd name="P$1" x="0" y="0" dx="0.508" dy="0.508" layer="1"/>
+</package>
+<package name="PAD.03X.03">
+<smd name="P$1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.05">
+<smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.04">
+<smd name="P$1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="TP_15TH">
+<pad name="P$1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
+<circle x="0" y="0" radius="0.381" width="0" layer="30"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -30119,6 +30135,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="TEST-POINT">
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;Name</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;Value</text>
+<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -30302,6 +30325,54 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-POINT" prefix="TP">
+<description>Bare copper test points for troubleshooting or ICT</description>
+<gates>
+<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2" package="PAD.02X.02">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3" package="PAD.03X.03">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X5" package="PAD.03X.05">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X4" package="PAD.03X.04">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TP_15TH_THRU" package="TP_15TH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -30556,7 +30627,6 @@ Rebel - DIO-09553&lt;br&gt;
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R16" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="R17" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="1X02_NO_SILK"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/6W" value="ILIM"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/6W" value="ISET"/>
@@ -30584,7 +30654,7 @@ Rebel - DIO-09553&lt;br&gt;
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SJ4" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device="" value=""/>
 <part name="SJ3" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device="" value=""/>
-<part name="JP4" library="SparkFun-Connectors" deviceset="M02" device="-JST-2-PTH-NO_SILK"/>
+<part name="JP4" library="SparkFun-Connectors" deviceset="M02" device="1X02_NO_SILK"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S" value="OSHW-LOGOS"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="100KOHM-1/10W-1%(0603)" device="" value="100k"/>
@@ -30604,6 +30674,9 @@ Rebel - DIO-09553&lt;br&gt;
 </part>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SJ5" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_TRACE" device="_SMALL" value=""/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="1X02_NO_SILK"/>
+<part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X4" value=""/>
+<part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X4" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -30611,7 +30684,7 @@ Rebel - DIO-09553&lt;br&gt;
 <text x="187.96" y="144.78" size="1.778" layer="97">EN2 EN1   Current
  0   0     100mA
  0   1     500mA
- 1   0     ILIM
+ 1   0     ISET
  1   1     Standby</text>
 <text x="34.036" y="25.908" size="1.27" layer="97" align="top-left">Sets fast charge current
 - R_ISET range: 590-8.9k
@@ -30644,7 +30717,7 @@ from USB input.
 <text x="2.54" y="182.88" size="2.54" layer="94" align="top-left">Supply Input</text>
 <text x="71.12" y="182.88" size="2.54" layer="94" align="top-left">Battery Input</text>
 <text x="114.3" y="182.88" size="2.54" layer="94" align="top-left">Supply Output</text>
-<text x="149.86" y="182.88" size="2.54" layer="94" align="top-left">Shuttoff Switch</text>
+<text x="149.86" y="182.88" size="2.54" layer="94" align="top-left">Shutoff Switch</text>
 <text x="187.96" y="182.88" size="2.54" layer="94" align="top-left">Charge Current
 Select</text>
 <text x="2.54" y="127" size="2.54" layer="94" align="top-left">BQ24075 - 1.5A USB-Friendly LiPo Battery Charger 
@@ -30680,7 +30753,8 @@ custom ILIM.</text>
 <wire x1="48.26" y1="80.01" x2="48.26" y2="77.47" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="15.24" y1="83.82" x2="33.02" y2="83.82" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="33.02" y1="83.82" x2="33.02" y2="80.01" width="0.2032" layer="97" style="shortdash"/>
-<text x="49.276" y="40.64" size="1.524" layer="94" align="top-left">ILIM - Adjustable Current Limit</text>
+<text x="49.276" y="40.64" size="1.524" layer="94" align="top-left">ILIM - System/Load 
+          Current Limit</text>
 <text x="34.036" y="30.988" size="1.524" layer="94" align="top-left">ISET-Charge Current</text>
 <text x="1.016" y="41.148" size="1.524" layer="94" align="top-left">TMR - Saftey Timers</text>
 <wire x1="0" y1="43.18" x2="15.24" y2="43.18" width="0.2032" layer="97" style="shortdash"/>
@@ -30707,7 +30781,7 @@ to GND if TS is not used.</text>
 <text x="149.86" y="121.92" size="1.27" layer="97" align="top-left">V_PU is an externally supplied voltage 
 to set the pull-up resistor HIGH voltage.
 Allowable range: 1.62-6V</text>
-<text x="7.62" y="139.7" size="1.524" layer="97" align="top-left">Supply range: 4.35-6.4V</text>
+<text x="35.56" y="134.62" size="1.524" layer="97" align="top-left">Supply range: 4.35-6.4V</text>
 <text x="195.58" y="76.2" size="1.27" layer="97" align="top-left">VDD is 1.8V
 generated internally</text>
 <text x="101.6" y="114.3" size="1.27" layer="97" align="top-left">OUT is the power-path management output.
@@ -30788,7 +30862,6 @@ the power LED. To either:
 <instance part="GND14" gate="1" x="96.52" y="50.8"/>
 <instance part="R16" gate="G$1" x="226.06" y="170.18" rot="R270"/>
 <instance part="R17" gate="G$1" x="233.68" y="170.18" rot="R270"/>
-<instance part="JP2" gate="G$1" x="43.18" y="175.26" rot="MR180"/>
 <instance part="R6" gate="G$1" x="53.34" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.8414" y="52.07" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="51.816" y="57.15" size="1.778" layer="96" rot="R90"/>
@@ -30802,14 +30875,14 @@ the power LED. To either:
 <instance part="SUPPLY5" gate="G$1" x="76.2" y="116.84"/>
 <instance part="GND11" gate="1" x="76.2" y="101.6"/>
 <instance part="C1" gate="G$1" x="76.2" y="109.22"/>
-<instance part="SUPPLY2" gate="G$1" x="55.88" y="177.8"/>
+<instance part="SUPPLY2" gate="G$1" x="55.88" y="180.34"/>
 <instance part="GND7" gate="1" x="53.34" y="142.24"/>
 <instance part="STANDOFF3" gate="G$1" x="246.38" y="30.48"/>
 <instance part="STANDOFF1" gate="G$1" x="243.84" y="30.48"/>
 <instance part="STANDOFF2" gate="G$1" x="243.84" y="27.94"/>
 <instance part="STANDOFF4" gate="G$1" x="246.38" y="27.94"/>
 <instance part="S1" gate="1" x="170.18" y="147.32"/>
-<instance part="JP3" gate="G$1" x="43.18" y="162.56" rot="MR180"/>
+<instance part="JP3" gate="G$1" x="43.18" y="165.1" rot="MR180"/>
 <instance part="JP7" gate="G$1" x="119.38" y="175.26" rot="MR180"/>
 <instance part="JP8" gate="G$1" x="119.38" y="157.48"/>
 <instance part="GND16" gate="1" x="132.08" y="134.62"/>
@@ -30828,7 +30901,7 @@ the power LED. To either:
 <instance part="GND4" gate="1" x="20.32" y="63.5"/>
 <instance part="SJ4" gate="G$1" x="58.42" y="68.58" rot="R90"/>
 <instance part="SJ3" gate="G$1" x="43.18" y="71.12" rot="R90"/>
-<instance part="JP4" gate="G$1" x="43.18" y="147.32"/>
+<instance part="JP4" gate="G$1" x="43.18" y="152.4" rot="MR180"/>
 <instance part="LOGO1" gate="G$1" x="90.17" y="0.508"/>
 <instance part="LOGO3" gate="G$1" x="106.68" y="25.4"/>
 <instance part="R12" gate="G$1" x="177.8" y="157.48" rot="R270"/>
@@ -30851,6 +30924,15 @@ the power LED. To either:
 </instance>
 <instance part="GND24" gate="1" x="127" y="60.96"/>
 <instance part="SJ5" gate="G$1" x="119.38" y="66.04" rot="MR270"/>
+<instance part="JP2" gate="G$1" x="43.18" y="175.26" rot="MR180"/>
+<instance part="TP1" gate="G$1" x="15.24" y="142.24" smashed="yes">
+<attribute name="NAME" x="15.494" y="143.256" size="1.778" layer="95"/>
+<attribute name="VALUE" x="12.7" y="139.7" size="1.778" layer="96"/>
+</instance>
+<instance part="TP2" gate="G$1" x="15.24" y="137.16" smashed="yes">
+<attribute name="NAME" x="15.24" y="138.176" size="1.778" layer="95"/>
+<attribute name="VALUE" x="12.7" y="134.62" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -30977,17 +31059,17 @@ the power LED. To either:
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="53.34" y1="172.72" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="160.02" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="147.32" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="172.72" x2="53.34" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="162.56" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="160.02" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
-<junction x="53.34" y="160.02"/>
-<pinref part="JP4" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="147.32" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
-<junction x="53.34" y="147.32"/>
+<wire x1="53.34" y1="149.86" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="162.56" x2="53.34" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
+<junction x="53.34" y="149.86"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="172.72" x2="53.34" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="172.72" x2="53.34" y2="162.56" width="0.1524" layer="91"/>
+<junction x="53.34" y="162.56"/>
 </segment>
 <segment>
 <pinref part="JP8" gate="G$1" pin="1"/>
@@ -31052,12 +31134,22 @@ the power LED. To either:
 <wire x1="12.7" y1="160.02" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
 <label x="25.4" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TP2" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="137.16" x2="12.7" y2="137.16" width="0.1524" layer="91"/>
+<label x="12.7" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="D-" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="D-"/>
 <wire x1="12.7" y1="162.56" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
 <label x="25.4" y="162.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="142.24" x2="12.7" y2="142.24" width="0.1524" layer="91"/>
+<label x="12.7" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
@@ -31080,17 +31172,17 @@ the power LED. To either:
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="V_USB"/>
-<wire x1="55.88" y1="162.56" x2="55.88" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="165.1" x2="55.88" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="175.26" x2="55.88" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="162.56" x2="55.88" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="175.26" x2="55.88" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="165.1" x2="55.88" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="152.4" x2="55.88" y2="165.1" width="0.1524" layer="91"/>
+<junction x="55.88" y="165.1"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="152.4" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="175.26" x2="55.88" y2="175.26" width="0.1524" layer="91"/>
 <junction x="55.88" y="175.26"/>
-<pinref part="JP4" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="149.86" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="149.86" x2="55.88" y2="162.56" width="0.1524" layer="91"/>
-<junction x="55.88" y="162.56"/>
 </segment>
 </net>
 <net name="SDA" class="0">
