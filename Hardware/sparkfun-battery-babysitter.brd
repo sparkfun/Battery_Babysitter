@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -230,7 +230,7 @@ Babysitter</text>
 <text x="29.21" y="7.62" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">ILIM</text>
 <text x="24.0665" y="14.1605" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">2</text>
 <text x="22.7965" y="14.1605" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">1</text>
-<text x="32.385" y="27.305" size="1.016" layer="16" ratio="15" rot="MR0">v10</text>
+<text x="0.381" y="25.781" size="1.016" layer="16" ratio="15" rot="MR90">v10</text>
 <text x="2.159" y="8.89" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">1.8V
 (Out)</text>
 <text x="2.159" y="6.35" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="center-left">TMR</text>
@@ -3463,7 +3463,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="D+">
 <contactref element="JP1" pad="D+1"/>
 <contactref element="TP2" pad="P$1"/>
-<via x="21.59" y="26.3525" extent="1-16" drill="0.508" diameter="0.9652"/>
+<via x="21.59" y="26.3525" extent="1-16" drill="0.508" diameter="0.9652" alwaysstop="yes"/>
 <wire x1="22.86" y1="28.161" x2="22.86" y2="27.3685" width="0.2032" layer="1"/>
 <wire x1="22.86" y1="27.3685" x2="22.352" y2="26.8605" width="0.2032" layer="1"/>
 <wire x1="22.352" y1="26.8605" x2="22.098" y2="26.8605" width="0.2032" layer="1"/>
@@ -3473,7 +3473,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="JP1" pad="D-1"/>
 <wire x1="23.51" y1="28.161" x2="23.51" y2="26.939" width="0.2032" layer="1"/>
 <contactref element="TP1" pad="P$1"/>
-<via x="22.9235" y="26.3525" extent="1-16" drill="0.508" diameter="0.9652"/>
+<via x="22.9235" y="26.3525" extent="1-16" drill="0.508" diameter="0.9652" alwaysstop="yes"/>
 <wire x1="23.51" y1="26.939" x2="22.9235" y2="26.3525" width="0.2032" layer="1"/>
 </signal>
 <signal name="V_USB">
@@ -4092,6 +4092,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,8ed10a843ae35c24"/>
 <approved hash="19,16,c6a635467dba6566"/>
 <approved hash="3,16,f623f4a1a0b0a232"/>
+<approved hash="3,16,358d198552d67ede"/>
 <approved hash="3,1,5fee5dec5dec5fee"/>
 <approved hash="19,1,0950c168cd7a0542"/>
 <approved hash="4,1,1e8e8ed7bcf5b622"/>
@@ -4120,8 +4121,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,56579ac3ba20932a"/>
 <approved hash="19,16,e54bc38b53ed13af"/>
 <approved hash="19,16,886264435a30538f"/>
-<approved hash="19,16,b75edb6bac7a2b46"/>
 <approved hash="19,16,fb4d2af72b891e31"/>
+<approved hash="19,16,b75edb6bac7a2b46"/>
 <approved hash="19,16,93f565bd547e4118"/>
 <approved hash="19,16,e934248b2b250df8"/>
 </errors>

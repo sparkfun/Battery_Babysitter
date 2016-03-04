@@ -30681,17 +30681,17 @@ Rebel - DIO-09553&lt;br&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="187.96" y="144.78" size="1.778" layer="97">EN2 EN1   Current
+<text x="187.96" y="144.78" size="1.778" layer="97" font="vector">EN2 EN1   Current
  0   0     100mA
  0   1     500mA
  1   0     ISET
  1   1     Standby</text>
-<text x="34.036" y="25.908" size="1.27" layer="97" align="top-left">Sets fast charge current
+<text x="34.036" y="25.908" size="1.27" layer="97" font="vector" align="top-left">Sets fast charge current
 - R_ISET range: 590-8.9k
 - I_CHG = ~885 / R_ISET
   - EX: R_ISET = 590 : 
        I_CHG = 1.5A</text>
-<text x="62.484" y="35.56" size="1.27" layer="97" align="top-left">Sets combined system
+<text x="62.484" y="35.56" size="1.27" layer="97" font="vector" align="top-left">Sets combined system
 load and battery charge 
 currents pulled
 from USB input.
@@ -30714,31 +30714,31 @@ from USB input.
 <wire x1="218.44" y1="129.54" x2="218.44" y2="86.36" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="218.44" y1="86.36" x2="218.44" y2="35.56" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="86.36" x2="218.44" y2="86.36" width="0.2032" layer="97" style="shortdash"/>
-<text x="2.54" y="182.88" size="2.54" layer="94" align="top-left">Supply Input</text>
-<text x="71.12" y="182.88" size="2.54" layer="94" align="top-left">Battery Input</text>
-<text x="114.3" y="182.88" size="2.54" layer="94" align="top-left">Supply Output</text>
-<text x="149.86" y="182.88" size="2.54" layer="94" align="top-left">Shutoff Switch</text>
-<text x="187.96" y="182.88" size="2.54" layer="94" align="top-left">Charge Current
+<text x="2.54" y="182.88" size="2.54" layer="94" font="vector" align="top-left">Supply Input</text>
+<text x="71.12" y="182.88" size="2.54" layer="94" font="vector" align="top-left">Battery Input</text>
+<text x="114.3" y="182.88" size="2.54" layer="94" font="vector" align="top-left">Supply Output</text>
+<text x="149.86" y="182.88" size="2.54" layer="94" font="vector" align="top-left">Shutoff Switch</text>
+<text x="187.96" y="182.88" size="2.54" layer="94" font="vector" align="top-left">Charge Current
 Select</text>
-<text x="2.54" y="127" size="2.54" layer="94" align="top-left">BQ24075 - 1.5A USB-Friendly LiPo Battery Charger 
+<text x="2.54" y="127" size="2.54" layer="94" font="vector" align="top-left">BQ24075 - 1.5A USB-Friendly LiPo Battery Charger 
 &amp; Power-Path Management</text>
-<text x="149.86" y="127" size="2.54" layer="94" align="top-left">I2C Pull-Ups</text>
-<text x="149.86" y="83.82" size="2.54" layer="94" align="top-left">BQ27441-G1 Fuel Gauge</text>
-<text x="220.98" y="127" size="2.54" layer="94" align="top-left">Headers</text>
-<text x="172.72" y="10.16" size="2.54" layer="94" align="top-left">Jim Lindblom</text>
-<text x="238.76" y="10.16" size="2.54" layer="94" align="top-left">v10</text>
-<text x="149.86" y="152.4" size="1.27" layer="97">SYSOFF controls supply 
+<text x="149.86" y="127" size="2.54" layer="94" font="vector" align="top-left">I2C Pull-Ups</text>
+<text x="149.86" y="83.82" size="2.54" layer="94" font="vector" align="top-left">BQ27441-G1 Fuel Gauge</text>
+<text x="220.98" y="127" size="2.54" layer="94" font="vector" align="top-left">Headers</text>
+<text x="172.72" y="10.16" size="2.54" layer="94" font="vector" align="top-left">Jim Lindblom</text>
+<text x="238.76" y="10.16" size="2.54" layer="94" font="vector" align="top-left">v10</text>
+<text x="149.86" y="152.4" size="1.27" layer="97" font="vector">SYSOFF controls supply 
 to the V_OUT pin.
 SYSOFF is active-high
 
 HIGH=OFF
 LOW=ON</text>
-<text x="1.27" y="44.704" size="1.27" layer="97">SJ1: Cut to 
+<text x="1.27" y="44.704" size="1.27" layer="97" font="vector">SJ1: Cut to 
 disable
 TS bypass.</text>
-<text x="34.036" y="15.494" size="1.27" layer="97" align="top-left">SJ3: Cut to set
+<text x="34.036" y="15.494" size="1.27" layer="97" font="vector" align="top-left">SJ3: Cut to set
 custom ISET.</text>
-<text x="61.976" y="15.494" size="1.27" layer="97" align="top-left">SJ4: Cut to set
+<text x="61.976" y="15.494" size="1.27" layer="97" font="vector" align="top-left">SJ4: Cut to set
 custom ILIM.</text>
 <wire x1="33.02" y1="80.01" x2="33.02" y2="0" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="48.26" y1="77.47" x2="48.26" y2="33.02" width="0.2032" layer="97" style="shortdash"/>
@@ -30753,12 +30753,12 @@ custom ILIM.</text>
 <wire x1="48.26" y1="80.01" x2="48.26" y2="77.47" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="15.24" y1="83.82" x2="33.02" y2="83.82" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="33.02" y1="83.82" x2="33.02" y2="80.01" width="0.2032" layer="97" style="shortdash"/>
-<text x="49.276" y="40.64" size="1.524" layer="94" align="top-left">ILIM - System/Load 
+<text x="49.276" y="40.64" size="1.524" layer="94" font="vector" align="top-left">ILIM - System/Load 
           Current Limit</text>
-<text x="34.036" y="30.988" size="1.524" layer="94" align="top-left">ISET-Charge Current</text>
-<text x="1.016" y="41.148" size="1.524" layer="94" align="top-left">TMR - Saftey Timers</text>
+<text x="34.036" y="30.988" size="1.524" layer="94" font="vector" align="top-left">ISET-Charge Current</text>
+<text x="1.016" y="41.148" size="1.524" layer="94" font="vector" align="top-left">TMR - Saftey Timers</text>
 <wire x1="0" y1="43.18" x2="15.24" y2="43.18" width="0.2032" layer="97" style="shortdash"/>
-<text x="2.54" y="38.1" size="1.27" layer="97" align="top-left">Sets pre-charge and
+<text x="2.54" y="38.1" size="1.27" layer="97" font="vector" align="top-left">Sets pre-charge and
 fast-charge safety timers.
 - Leave unconnected to set
   default (30min pre, 
@@ -30768,23 +30768,23 @@ fast-charge safety timers.
 - T_PRE range: 1400-2160 s
 - T_PRE (s) = 0.048 * R_TMR
 - T_MAX (s) = 10 * T_PRE</text>
-<text x="2.54" y="15.24" size="1.27" layer="97" align="top-left">SJ2: Cut to enable charge
+<text x="2.54" y="15.24" size="1.27" layer="97" font="vector" align="top-left">SJ2: Cut to enable charge
 timer.</text>
 <wire x1="33.02" y1="83.82" x2="33.02" y2="104.14" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="33.02" y1="104.14" x2="0" y2="104.14" width="0.2032" layer="97" style="shortdash"/>
-<text x="1.016" y="102.108" size="1.524" layer="94" align="top-left">TS - External Thermistor</text>
-<text x="2.54" y="99.06" size="1.27" layer="97" align="top-left">- Connect TS to 10k NTC 
+<text x="1.016" y="102.108" size="1.524" layer="94" font="vector" align="top-left">TS - External Thermistor</text>
+<text x="2.54" y="99.06" size="1.27" layer="97" font="vector" align="top-left">- Connect TS to 10k NTC 
 thermistor in the battery
 pack.
 - Connect a 10k resistor 
 to GND if TS is not used.</text>
-<text x="149.86" y="121.92" size="1.27" layer="97" align="top-left">V_PU is an externally supplied voltage 
+<text x="149.86" y="121.92" size="1.27" layer="97" font="vector" align="top-left">V_PU is an externally supplied voltage 
 to set the pull-up resistor HIGH voltage.
 Allowable range: 1.62-6V</text>
-<text x="35.56" y="134.62" size="1.524" layer="97" align="top-left">Supply range: 4.35-6.4V</text>
-<text x="195.58" y="76.2" size="1.27" layer="97" align="top-left">VDD is 1.8V
+<text x="35.56" y="134.62" size="1.524" layer="97" font="vector" align="top-left">Supply range: 4.35-6.4V</text>
+<text x="195.58" y="76.2" size="1.27" layer="97" font="vector" align="top-left">VDD is 1.8V
 generated internally</text>
-<text x="101.6" y="114.3" size="1.27" layer="97" align="top-left">OUT is the power-path management output.
+<text x="101.6" y="114.3" size="1.27" layer="97" font="vector" align="top-left">OUT is the power-path management output.
 It manages current supplied from the USB 
 input to both the battery and system. Or
 supplies battery power to the system when 
@@ -30792,13 +30792,14 @@ USB is not connected.
 
 OUT supply w/ USB: V_USB - 0.3V
 OUT supply w/o USB: V_BAT - 0.05V</text>
-<text x="180.34" y="43.18" size="1.524" layer="97" align="top-left">I2C ADDR: 0x55</text>
-<text x="115.824" y="55.88" size="1.27" layer="97" align="top-left">SJ5 sets the operation of 
+<text x="180.34" y="43.18" size="1.524" layer="97" font="vector" align="top-left">I2C ADDR: 0x55</text>
+<text x="115.824" y="55.88" size="1.27" layer="97" font="vector" align="top-left">SJ5 sets the operation of 
 the power LED. To either:
   - Power OUT indicator
   - !PGOOD! indicator 
      (Good IN supply)
   - Open (LED disconnected)</text>
+<text x="73.66" y="134.62" size="1.524" layer="97" font="vector" align="top-left">Battery Range: 3.3-4.2V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -30812,8 +30813,8 @@ the power LED. To either:
 <attribute name="PROD_ID" x="185.42" y="60.96" size="1.524" layer="96" align="top-left" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="165.1" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="160.02" y="69.8246" size="1.778" layer="95"/>
-<attribute name="VALUE" x="165.862" y="69.85" size="1.778" layer="96"/>
+<attribute name="NAME" x="160.02" y="69.8246" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="165.862" y="69.85" size="1.778" layer="96" font="vector"/>
 <attribute name="PROD_ID" x="165.1" y="68.58" size="1.524" layer="96" rot="R180" align="top-left" display="off"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="172.72" y="71.12"/>
@@ -30834,13 +30835,13 @@ the power LED. To either:
 <instance part="SUPPLY3" gate="G$1" x="55.88" y="101.6"/>
 <instance part="SUPPLY4" gate="G$1" x="66.04" y="101.6"/>
 <instance part="R5" gate="G$1" x="43.18" y="58.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="44.6786" y="62.23" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="44.704" y="57.15" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="44.6786" y="62.23" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="44.704" y="57.15" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="PROD_ID" x="43.18" y="58.42" size="1.524" layer="96" rot="R270" align="top-left" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="58.42" y="55.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="59.9186" y="59.69" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="59.944" y="54.61" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="59.9186" y="59.69" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="59.944" y="54.61" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="PROD_ID" x="58.42" y="55.88" size="1.27" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="43.18" y="48.26"/>
@@ -30863,13 +30864,13 @@ the power LED. To either:
 <instance part="R16" gate="G$1" x="226.06" y="170.18" rot="R270"/>
 <instance part="R17" gate="G$1" x="233.68" y="170.18" rot="R270"/>
 <instance part="R6" gate="G$1" x="53.34" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="51.8414" y="52.07" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="51.816" y="57.15" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="51.8414" y="52.07" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="51.816" y="57.15" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="GND8" gate="1" x="53.34" y="45.72"/>
 <instance part="R4" gate="G$1" x="38.1" y="58.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.6014" y="54.61" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="36.576" y="59.69" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="36.6014" y="54.61" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="36.576" y="59.69" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="GND5" gate="1" x="38.1" y="48.26"/>
 <instance part="SUPPLY5" gate="G$1" x="76.2" y="116.84"/>
@@ -30888,15 +30889,15 @@ the power LED. To either:
 <instance part="GND16" gate="1" x="132.08" y="134.62"/>
 <instance part="JP9" gate="G$1" x="119.38" y="144.78"/>
 <instance part="R2" gate="G$1" x="12.7" y="78.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.2014" y="74.93" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="11.176" y="80.01" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="11.2014" y="74.93" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="11.176" y="80.01" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="SJ1" gate="G$1" x="12.7" y="66.04" rot="R90"/>
 <instance part="SUPPLY8" gate="G$1" x="177.8" y="165.1"/>
 <instance part="GND21" gate="1" x="231.14" y="134.62"/>
 <instance part="R3" gate="G$1" x="20.32" y="73.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="18.8214" y="69.85" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="18.796" y="74.93" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="18.8214" y="69.85" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="18.796" y="74.93" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="GND4" gate="1" x="20.32" y="63.5"/>
 <instance part="SJ4" gate="G$1" x="58.42" y="68.58" rot="R90"/>
@@ -30909,8 +30910,8 @@ the power LED. To either:
 <instance part="LOGO2" gate="G$1" x="91.44" y="0"/>
 <instance part="JP13" gate="G$1" x="223.52" y="60.96"/>
 <instance part="R1" gate="G$1" x="7.62" y="78.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.1214" y="74.93" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="6.096" y="80.01" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="6.1214" y="74.93" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="6.096" y="80.01" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="GND1" gate="1" x="7.62" y="55.88"/>
 <instance part="R15" gate="G$1" x="193.04" y="101.6" rot="R90"/>
@@ -30926,11 +30927,11 @@ the power LED. To either:
 <instance part="SJ5" gate="G$1" x="119.38" y="66.04" rot="MR270"/>
 <instance part="JP2" gate="G$1" x="43.18" y="175.26" rot="MR180"/>
 <instance part="TP1" gate="G$1" x="15.24" y="142.24" smashed="yes">
-<attribute name="NAME" x="15.494" y="143.256" size="1.778" layer="95"/>
+<attribute name="NAME" x="15.494" y="143.256" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="12.7" y="139.7" size="1.778" layer="96"/>
 </instance>
 <instance part="TP2" gate="G$1" x="15.24" y="137.16" smashed="yes">
-<attribute name="NAME" x="15.24" y="138.176" size="1.778" layer="95"/>
+<attribute name="NAME" x="15.24" y="138.176" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="12.7" y="134.62" size="1.778" layer="96"/>
 </instance>
 </instances>
@@ -31132,24 +31133,24 @@ the power LED. To either:
 <segment>
 <pinref part="JP1" gate="G$1" pin="D+"/>
 <wire x1="12.7" y1="160.02" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
-<label x="25.4" y="160.02" size="1.27" layer="95" xref="yes"/>
+<label x="25.4" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="TP2" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="137.16" x2="12.7" y2="137.16" width="0.1524" layer="91"/>
-<label x="12.7" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="12.7" y="137.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D-" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="D-"/>
 <wire x1="12.7" y1="162.56" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
-<label x="25.4" y="162.56" size="1.27" layer="95" xref="yes"/>
+<label x="25.4" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="TP1" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="142.24" x2="12.7" y2="142.24" width="0.1524" layer="91"/>
-<label x="12.7" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="12.7" y="142.24" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
@@ -31189,50 +31190,50 @@ the power LED. To either:
 <segment>
 <pinref part="U2" gate="G$1" pin="SDA"/>
 <wire x1="198.12" y1="63.5" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
-<label x="200.66" y="63.5" size="1.27" layer="95" xref="yes"/>
+<label x="200.66" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="96.52" x2="172.72" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="93.98" x2="170.18" y2="93.98" width="0.1524" layer="91"/>
-<label x="170.18" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="170.18" y="93.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP10" gate="G$1" pin="3"/>
 <wire x1="233.68" y1="104.14" x2="236.22" y2="104.14" width="0.1524" layer="91"/>
-<label x="236.22" y="104.14" size="1.27" layer="95" xref="yes"/>
+<label x="236.22" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SCL"/>
 <wire x1="198.12" y1="60.96" x2="200.66" y2="60.96" width="0.1524" layer="91"/>
-<label x="200.66" y="60.96" size="1.27" layer="95" xref="yes"/>
+<label x="200.66" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="96.52" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="91.44" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
-<label x="170.18" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="170.18" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP10" gate="G$1" pin="4"/>
 <wire x1="233.68" y1="106.68" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
-<label x="236.22" y="106.68" size="1.27" layer="95" xref="yes"/>
+<label x="236.22" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SHIELD" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="SHIELD"/>
 <wire x1="12.7" y1="167.64" x2="25.4" y2="167.64" width="0.1524" layer="91"/>
-<label x="25.4" y="167.64" size="1.27" layer="95" xref="yes"/>
+<label x="25.4" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="BATTERY_IN" class="0">
 <segment>
 <pinref part="JP6" gate="G$1" pin="+"/>
 <wire x1="88.9" y1="165.1" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
-<label x="96.52" y="165.1" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="165.1" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="JP5" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="165.1" x2="96.52" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="152.4" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
@@ -31257,7 +31258,7 @@ the power LED. To either:
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="55.88" x2="167.64" y2="60.96" width="0.1524" layer="91"/>
 <junction x="167.64" y="60.96"/>
-<label x="165.1" y="60.96" size="1.524" layer="95" rot="R180" xref="yes"/>
+<label x="165.1" y="60.96" size="1.524" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="167.64" y1="60.96" x2="165.1" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -31269,29 +31270,29 @@ the power LED. To either:
 <wire x1="208.28" y1="68.58" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="68.58" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
 <junction x="208.28" y="68.58"/>
-<label x="210.82" y="68.58" size="1.27" layer="95" xref="yes"/>
+<label x="210.82" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP13" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="60.96" x2="233.68" y2="60.96" width="0.1524" layer="91"/>
-<label x="233.68" y="60.96" size="1.27" layer="95" xref="yes"/>
+<label x="233.68" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="GPOUT" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="GPOUT"/>
 <wire x1="198.12" y1="55.88" x2="200.66" y2="55.88" width="0.1524" layer="91"/>
-<label x="200.66" y="55.88" size="1.27" layer="95" xref="yes"/>
+<label x="200.66" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP11" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="83.82" x2="233.68" y2="83.82" width="0.1524" layer="91"/>
-<label x="233.68" y="83.82" size="1.27" layer="95" xref="yes"/>
+<label x="233.68" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="193.04" y1="96.52" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="93.98" x2="195.58" y2="93.98" width="0.1524" layer="91"/>
-<label x="195.58" y="93.98" size="1.27" layer="95" xref="yes"/>
+<label x="195.58" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -31308,7 +31309,7 @@ the power LED. To either:
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="BIN"/>
-<label x="200.66" y="53.34" size="1.27" layer="95" xref="yes"/>
+<label x="200.66" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="198.12" y1="53.34" x2="200.66" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -31352,10 +31353,10 @@ the power LED. To either:
 <segment>
 <pinref part="U1" gate="G$1" pin="EN2"/>
 <wire x1="93.98" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
-<label x="96.52" y="86.36" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="236.22" y="162.56" size="1.27" layer="95" xref="yes"/>
+<label x="236.22" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="162.56" x2="233.68" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="162.56" x2="233.68" y2="165.1" width="0.1524" layer="91"/>
@@ -31370,10 +31371,10 @@ the power LED. To either:
 <segment>
 <pinref part="U1" gate="G$1" pin="EN1"/>
 <wire x1="93.98" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
-<label x="96.52" y="83.82" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="223.52" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="223.52" y="162.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="162.56" x2="226.06" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="162.56" x2="226.06" y2="165.1" width="0.1524" layer="91"/>
@@ -31388,24 +31389,24 @@ the power LED. To either:
 <segment>
 <pinref part="U1" gate="G$1" pin="SYSOFF"/>
 <wire x1="93.98" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
-<label x="96.52" y="81.28" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="167.64" y1="147.32" x2="165.1" y2="147.32" width="0.1524" layer="91"/>
-<label x="165.1" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="165.1" y="147.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="S1" gate="1" pin="P"/>
 </segment>
 <segment>
 <pinref part="JP12" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="71.12" x2="233.68" y2="71.12" width="0.1524" layer="91"/>
-<label x="233.68" y="71.12" size="1.27" layer="95" xref="yes"/>
+<label x="233.68" y="71.12" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="!CE!" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="!CE!"/>
 <wire x1="93.98" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
-<label x="99.06" y="78.74" size="1.27" layer="95" xref="yes"/>
+<label x="99.06" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="96.52" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="78.74" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
 <junction x="96.52" y="78.74"/>
@@ -31414,7 +31415,7 @@ the power LED. To either:
 <segment>
 <pinref part="JP11" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="81.28" x2="233.68" y2="81.28" width="0.1524" layer="91"/>
-<label x="233.68" y="81.28" size="1.27" layer="95" xref="yes"/>
+<label x="233.68" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -31462,7 +31463,7 @@ the power LED. To either:
 <wire x1="93.98" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="93.98" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="96.52" x2="109.22" y2="96.52" width="0.1524" layer="91"/>
-<label x="132.08" y="96.52" size="1.27" layer="95" xref="yes"/>
+<label x="132.08" y="96.52" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="109.22" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="96.52" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
@@ -31484,7 +31485,7 @@ the power LED. To either:
 <wire x1="127" y1="160.02" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
 <junction x="129.54" y="160.02"/>
 <wire x1="129.54" y1="175.26" x2="132.08" y2="175.26" width="0.1524" layer="91"/>
-<label x="132.08" y="175.26" size="1.27" layer="95" xref="yes"/>
+<label x="132.08" y="175.26" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="JP9" gate="G$1" pin="2"/>
 <pinref part="JP7" gate="G$1" pin="1"/>
 <wire x1="127" y1="175.26" x2="129.54" y2="175.26" width="0.1524" layer="91"/>
@@ -31500,18 +31501,18 @@ the power LED. To either:
 <wire x1="231.14" y1="177.8" x2="231.14" y2="180.34" width="0.1524" layer="91"/>
 <junction x="231.14" y="177.8"/>
 <wire x1="231.14" y1="180.34" x2="233.68" y2="180.34" width="0.1524" layer="91"/>
-<label x="233.68" y="180.34" size="1.27" layer="95" xref="yes"/>
+<label x="233.68" y="180.34" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="V_PU" class="0">
 <segment>
 <pinref part="JP10" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="101.6" x2="236.22" y2="101.6" width="0.1524" layer="91"/>
-<label x="236.22" y="101.6" size="1.27" layer="95" xref="yes"/>
+<label x="236.22" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="111.76" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
-<label x="177.8" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="177.8" y="111.76" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="109.22" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="109.22" x2="180.34" y2="109.22" width="0.1524" layer="91"/>
@@ -31551,7 +31552,7 @@ the power LED. To either:
 <segment>
 <pinref part="JP1" gate="G$1" pin="USBID"/>
 <wire x1="12.7" y1="157.48" x2="25.4" y2="157.48" width="0.1524" layer="91"/>
-<label x="25.4" y="157.48" size="1.27" layer="95" xref="yes"/>
+<label x="25.4" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
