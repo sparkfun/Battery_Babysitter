@@ -29539,37 +29539,31 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
   &lt;li&gt;A6H-2101 or A6H-2102 in Omron A6H series; &lt;a href="http://www.omron.com/ecb/products/pdf/en-a6h.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Digikey &lt;a href="http://www.digikey.com/product-detail/en/A6H-2101/A6H-2101-ND/1811590"&gt;A6H-2101-ND&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-<wire x1="-1.855" y1="-2.6" x2="1.855" y2="-2.6" width="0.2032" layer="21"/>
-<wire x1="1.855" y1="2.6" x2="-1.855" y2="2.6" width="0.2032" layer="21"/>
-<wire x1="-1.855" y1="2.6" x2="-1.855" y2="-2.6" width="0.2032" layer="21"/>
-<wire x1="1.855" y1="-2.6" x2="1.855" y2="2.6" width="0.2032" layer="21"/>
-<wire x1="-1.0922" y1="1.905" x2="-1.0922" y2="-1.905" width="0.1778" layer="21"/>
-<wire x1="-1.0922" y1="1.905" x2="-0.1778" y2="1.905" width="0.1778" layer="21"/>
-<wire x1="-0.1778" y1="-1.905" x2="-0.1778" y2="1.905" width="0.1778" layer="21"/>
-<wire x1="-0.1778" y1="-1.905" x2="-1.0922" y2="-1.905" width="0.1524" layer="21"/>
-<text x="-1.016" y="-2.191" size="1.016" layer="51" ratio="10">1</text>
-<text x="-1.905" y="1.27" size="0.8128" layer="51" ratio="10">ON</text>
-<text x="0.254" y="-2.191" size="1.016" layer="51" ratio="10">2</text>
+<wire x1="-2.032" y1="-2.413" x2="2.032" y2="-2.413" width="0.2032" layer="21"/>
+<wire x1="2.032" y1="2.413" x2="-2.032" y2="2.413" width="0.2032" layer="21"/>
+<wire x1="-2.032" y1="2.413" x2="-2.032" y2="-2.413" width="0.2032" layer="21"/>
+<wire x1="2.032" y1="-2.413" x2="2.032" y2="2.413" width="0.2032" layer="21"/>
+<wire x1="-1.0922" y1="1.27" x2="-1.0922" y2="-1.27" width="0.1778" layer="21"/>
+<wire x1="-1.0922" y1="1.27" x2="-0.1778" y2="1.27" width="0.1778" layer="21"/>
+<wire x1="-0.1778" y1="-1.27" x2="-0.1778" y2="1.27" width="0.1778" layer="21"/>
+<wire x1="-0.1778" y1="-1.27" x2="-1.0922" y2="-1.27" width="0.1778" layer="21"/>
+<text x="0" y="2.2225" size="0.762" layer="21" font="vector" ratio="20" align="top-center">ON</text>
 <text x="-1.905" y="-6.096" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-2.032" y="5.334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<rectangle x1="-0.889" y1="-0.381" x2="-0.381" y2="0" layer="21"/>
-<rectangle x1="-0.889" y1="-1.016" x2="-0.381" y2="-0.635" layer="21"/>
-<rectangle x1="-0.889" y1="-1.651" x2="-0.381" y2="-1.27" layer="21"/>
+<rectangle x1="-0.889" y1="0" x2="-0.381" y2="0.381" layer="21" rot="R180"/>
+<rectangle x1="-0.889" y1="0.635" x2="-0.381" y2="1.016" layer="21" rot="R180"/>
 <smd name="2" x="0.635" y="-3.7" dx="1.27" dy="0.762" layer="1" rot="R90"/>
 <smd name="1" x="-0.635" y="-3.7" dx="1.27" dy="0.762" layer="1" rot="R90"/>
 <smd name="4" x="-0.635" y="3.7" dx="1.27" dy="0.762" layer="1" rot="R90"/>
 <smd name="3" x="0.635" y="3.7" dx="1.27" dy="0.762" layer="1" rot="R90"/>
-<wire x1="0.1778" y1="1.905" x2="0.1778" y2="-1.905" width="0.1778" layer="21"/>
-<wire x1="0.1778" y1="1.905" x2="1.0922" y2="1.905" width="0.1778" layer="21"/>
-<wire x1="1.0922" y1="-1.905" x2="1.0922" y2="1.905" width="0.1778" layer="21"/>
-<wire x1="1.0922" y1="-1.905" x2="0.1778" y2="-1.905" width="0.1524" layer="21"/>
-<rectangle x1="0.381" y1="-0.381" x2="0.889" y2="0" layer="21"/>
-<rectangle x1="0.381" y1="-1.016" x2="0.889" y2="-0.635" layer="21"/>
-<rectangle x1="0.381" y1="-1.651" x2="0.889" y2="-1.27" layer="21"/>
-<rectangle x1="0.41" y1="3.72" x2="0.86" y2="4.22" layer="51"/>
-<rectangle x1="-0.86" y1="3.72" x2="-0.41" y2="4.22" layer="51"/>
-<rectangle x1="-0.86" y1="-4.22" x2="-0.41" y2="-3.72" layer="51" rot="R180"/>
-<rectangle x1="0.41" y1="-4.22" x2="0.86" y2="-3.72" layer="51" rot="R180"/>
+<wire x1="0.1778" y1="1.27" x2="0.1778" y2="-1.27" width="0.1778" layer="21"/>
+<wire x1="0.1778" y1="1.27" x2="1.0922" y2="1.27" width="0.1778" layer="21"/>
+<wire x1="1.0922" y1="-1.27" x2="1.0922" y2="1.27" width="0.1778" layer="21"/>
+<wire x1="1.0922" y1="-1.27" x2="0.1778" y2="-1.27" width="0.1778" layer="21"/>
+<rectangle x1="0.381" y1="0.635" x2="0.889" y2="1.016" layer="21" rot="R180"/>
+<rectangle x1="0.381" y1="0" x2="0.889" y2="0.381" layer="21" rot="R180"/>
+<text x="-0.635" y="-2.2225" size="0.762" layer="21" font="vector" ratio="20" rot="R180" align="top-center">1</text>
+<text x="0.635" y="-2.2225" size="0.762" layer="21" font="vector" ratio="20" rot="R180" align="top-center">2</text>
 </package>
 </packages>
 <symbols>
@@ -29605,10 +29599,10 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="0" y1="-2.032" x2="3.302" y2="-2.032" width="0.1524" layer="94"/>
 <wire x1="0" y1="-3.048" x2="-3.302" y2="-3.048" width="0.1524" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="1.397" y1="0.254" x2="1.905" y2="0.254" width="0" layer="94"/>
-<wire x1="1.397" y1="-0.254" x2="1.905" y2="-0.254" width="0" layer="94"/>
-<wire x1="1.397" y1="-2.286" x2="1.905" y2="-2.286" width="0" layer="94"/>
-<wire x1="1.397" y1="-2.794" x2="1.905" y2="-2.794" width="0" layer="94"/>
+<wire x1="-1.397" y1="-0.254" x2="-1.905" y2="-0.254" width="0" layer="94"/>
+<wire x1="-1.397" y1="0.254" x2="-1.905" y2="0.254" width="0" layer="94"/>
+<wire x1="-1.397" y1="-2.794" x2="-1.905" y2="-2.794" width="0" layer="94"/>
+<wire x1="-1.397" y1="-2.286" x2="-1.905" y2="-2.286" width="0" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
@@ -29617,10 +29611,10 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <text x="4.826" y="-2.667" size="1.27" layer="94" ratio="10" rot="R90">1</text>
 <text x="4.826" y="-0.381" size="1.27" layer="94" ratio="10" rot="R90">2</text>
 <text x="-3.556" y="-4.699" size="1.27" layer="94" ratio="10" rot="R90">ON</text>
-<rectangle x1="0.381" y1="-0.254" x2="1.397" y2="0.254" layer="94"/>
-<rectangle x1="1.905" y1="-0.254" x2="2.921" y2="0.254" layer="94"/>
-<rectangle x1="0.381" y1="-2.794" x2="1.397" y2="-2.286" layer="94"/>
-<rectangle x1="1.905" y1="-2.794" x2="2.921" y2="-2.286" layer="94"/>
+<rectangle x1="-1.397" y1="-0.254" x2="-0.381" y2="0.254" layer="94" rot="R180"/>
+<rectangle x1="-2.921" y1="-0.254" x2="-1.905" y2="0.254" layer="94" rot="R180"/>
+<rectangle x1="-1.397" y1="-2.794" x2="-0.381" y2="-2.286" layer="94" rot="R180"/>
+<rectangle x1="-2.921" y1="-2.794" x2="-1.905" y2="-2.286" layer="94" rot="R180"/>
 <pin name="3" x="-7.62" y="0" visible="pad" length="short" direction="pas" swaplevel="2"/>
 <pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <pin name="1" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
@@ -29727,7 +29721,7 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STAND-OFF" prefix="STANDOFF">
+<deviceset name="STAND-OFF" prefix="H">
 <description>&lt;b&gt;#4 Stand Off&lt;/b&gt;&lt;p&gt;
 This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
 <gates>
