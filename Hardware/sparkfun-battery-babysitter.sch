@@ -30726,7 +30726,7 @@ Select</text>
 <text x="149.86" y="83.82" size="2.54" layer="94" font="vector" align="top-left">BQ27441-G1 Fuel Gauge</text>
 <text x="220.98" y="127" size="2.54" layer="94" font="vector" align="top-left">Headers</text>
 <text x="172.72" y="10.16" size="2.54" layer="94" font="vector" align="top-left">Jim Lindblom</text>
-<text x="238.76" y="10.16" size="2.54" layer="94" font="vector" align="top-left">v02</text>
+<text x="238.76" y="10.16" size="2.54" layer="94" font="vector" align="top-left">v10</text>
 <text x="149.86" y="152.4" size="1.27" layer="97" font="vector">SYSOFF controls supply 
 to the V_OUT pin.
 SYSOFF is active-high

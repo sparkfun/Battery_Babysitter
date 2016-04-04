@@ -1,9 +1,10 @@
 # Ignore list for Eagle, a PCB layout tool
 
-# Backup files
+# Eagle Backup/Lock files
 *.s#?
 *.b#?
 *.l#?
+*.lck
 
 # Eagle project file
 # It contains a serial number and references to the file structure
