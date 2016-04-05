@@ -2368,7 +2368,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="11" x="-0.6" y="1.975" dx="0.2" dy="0.85" layer="1" rot="R180" cream="no"/>
 <smd name="12" x="-1" y="1.975" dx="0.2" dy="0.85" layer="1" rot="R180" cream="no"/>
 <smd name="EP" x="0" y="0" dx="1.95" dy="1.95" layer="1" cream="no"/>
-<polygon width="0" layer="1">
+<polygon width="0.0127" layer="1">
 <vertex x="1.65" y="1.225"/>
 <vertex x="-1.65" y="1.225"/>
 <vertex x="-1.65" y="0.975"/>
@@ -4086,8 +4086,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,8ed10a843ae35c24"/>
 <approved hash="19,16,c6a635467dba6566"/>
 <approved hash="3,16,f623f4a1a0b0a232"/>
-<approved hash="3,16,358d198552d67ede"/>
 <approved hash="3,1,5fee5dec5dec5fee"/>
+<approved hash="3,16,358d198552d67ede"/>
+<approved hash="3,1,4213ae0fae00421c"/>
 <approved hash="19,1,0950c168cd7a0542"/>
 <approved hash="4,1,1e8e8ed7bcf5b622"/>
 <approved hash="4,1,2397e0a7bd507615"/>

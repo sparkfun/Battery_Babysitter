@@ -26671,7 +26671,7 @@ Various fiducial points for machine vision alignment.</description>
 <smd name="11" x="-0.6" y="1.975" dx="0.2" dy="0.85" layer="1" rot="R180" cream="no"/>
 <smd name="12" x="-1" y="1.975" dx="0.2" dy="0.85" layer="1" rot="R180" cream="no"/>
 <smd name="EP" x="0" y="0" dx="1.95" dy="1.95" layer="1" cream="no"/>
-<polygon width="0" layer="1">
+<polygon width="0.0127" layer="1">
 <vertex x="1.65" y="1.225"/>
 <vertex x="-1.65" y="1.225"/>
 <vertex x="-1.65" y="0.975"/>
