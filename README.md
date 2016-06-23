@@ -33,7 +33,7 @@ Product Versions
 
 Version History
 ---------------
-* [1.0](https://github.com/sparkfun/SparkFun_BQ27441_Arduino_Library/releases/tag/V_1.0) - v1.0 Hardware release
+* [1.0](https://github.com/sparkfun/Battery_Babysitter/releases/tag/V_1.0) - v1.0 Hardware release
 
 License Information
 -------------------
