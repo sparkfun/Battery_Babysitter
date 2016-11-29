@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -30611,7 +30611,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="USB-AB" device="CONN-11794"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="USB-AB" device="CONN-11794" value="USB-AB-MICRO-SMD_V03"/>
 <part name="JP6" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -30677,7 +30677,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF4" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A"/>
+<part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A" value="RIGHT_ANGLE_SLIDE_SWITCH_SMD"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="3.5MM-NO_SILK"/>
 <part name="JP7" library="SparkFun-Connectors" deviceset="M02" device="3.5MM-NO_SILK"/>
 <part name="JP8" library="SparkFun-Connectors" deviceset="M02" device="1X02_NO_SILK"/>
@@ -30706,7 +30706,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="S2" library="SparkFun-Electromechanical" deviceset="SW_DIP-2" device="-SMT-HALFSIZE">
+<part name="S2" library="SparkFun-Electromechanical" deviceset="SW_DIP-2" device="-SMT-HALFSIZE" value="SW_DIP-2_SMD">
 <attribute name="PROD_ID" value="SWCH-13215"/>
 </part>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
