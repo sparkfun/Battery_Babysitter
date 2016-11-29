@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3219,7 +3219,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </autorouter>
 <elements>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-0.635" y="-20.955"/>
-<element name="JP1" library="SparkFun-Connectors" package="USB-AB-MICRO-SMD_V03" value="" x="22.86" y="30.861" rot="R270">
+<element name="JP1" library="SparkFun-Connectors" package="USB-AB-MICRO-SMD_V03" value="USB-AB-MICRO-SMD_V03" x="22.86" y="30.861" rot="R270">
 <attribute name="PROD_ID" value="CONN-11794" x="22.86" y="30.861" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="JP6" library="SparkFun-Connectors" package="JST-2-SMD" value="" x="5.715" y="20.32" rot="R90">
@@ -3306,7 +3306,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="STANDOFF1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="30.48" y="30.48"/>
 <element name="STANDOFF2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="2.54" y="2.54"/>
 <element name="STANDOFF4" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="30.48" y="2.54"/>
-<element name="S1" library="SparkFun-Electromechanical" package="SWITCH-SPST-SMD-A" value="" x="30.226" y="22.098" rot="R270">
+<element name="S1" library="SparkFun-Electromechanical" package="SWITCH-SPST-SMD-A" value="RIGHT_ANGLE_SLIDE_SWITCH_SMD" x="30.226" y="22.098" rot="R270">
 <attribute name="PROD_ID" value="SWCH-10651" x="30.226" y="22.098" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="JP3" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2-NS" value="" x="10.767" y="29.4005" rot="R180">
@@ -3350,7 +3350,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="SJ2" library="SparkFun-Passives" package="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK" value="" x="8.89" y="6.35" rot="MR0"/>
 <element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="0.889" y="28.194"/>
 <element name="FID2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="29.21" y="5.08"/>
-<element name="S2" library="SparkFun-Electromechanical" package="DIPSWITCH-02-50MIL" value="" x="27.94" y="15.24" rot="R90">
+<element name="S2" library="SparkFun-Electromechanical" package="DIPSWITCH-02-50MIL" value="SW_DIP-2_SMD" x="27.94" y="15.24" rot="R90">
 <attribute name="PROD_ID" value="SWCH-13215" x="27.94" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="SJ5" library="SparkFun-Passives" package="PAD-JUMPER-3-2OF3_NC_BY_TRACE_YES_SILK_FULL_BOX" value="" x="16.51" y="26.035" rot="MR90"/>
